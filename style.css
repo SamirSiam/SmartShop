@@ -1,0 +1,49 @@
+/* Carousel & Modal Transitions */
+.carousel-track {
+  transition: transform 0.4s ease-in-out;
+}
+.modal-transition {
+  transition: opacity 0.2s ease, visibility 0.2s;
+}
+
+/* Dark Mode Body */
+body.dark {
+  background-color: #1a1a2e;
+  color: #f1f5f9;
+}
+
+/* Dark Mode Card Background */
+.dark .card-bg {
+  background-color: #16213e;
+  border-color: #2d3748;
+}
+.dark .modal-content {
+  background-color: #0f172a;
+  color: #e2e8f0;
+}
+.card-bg {
+  transition: all 0.2s;
+}
+
+/* Product Title - Dark in Light Mode, White in Dark Mode */
+.product-title {
+  color: #1f2937;
+  font-weight: 700;
+}
+body.dark .product-title {
+  color: #ffffff;
+}
+
+/* Product Price */
+.product-price {
+  color: #4f46e5;
+  font-weight: bold;
+}
+body.dark .product-price {
+  color: #818cf8;
+}
+
+/* Inherit color for section heading */
+#products h2 {
+  color: inherit;
+}
